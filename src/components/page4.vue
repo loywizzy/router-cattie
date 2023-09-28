@@ -5,8 +5,8 @@
         <img :src="n.img" class="card-img-top">
         <div class="card-body">
           <h3 class="card-title">{{ n.name }}</h3>
-          <p>ราคาห้อง : {{ n.price }}</p>
-          <h6>จำกัด 1 คนต่อ 8 ตัว !!</h6>
+          <p>ราคาห้อง : {{ n.price }} <p>เวลา 1 ชั่วโมง</p> </p>
+          <h6>จำกัด 1 คนต่อ 8 ตัว !!</h6><br>
           <a class="btn btn-primary"> จองแมว </a>
         </div>
       </div>
