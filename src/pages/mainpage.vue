@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import newcard from '../pages/NewCard.vue'
+import newcard from '../pages/newcard.vue'
 import jumbo from './jumbo.vue';
 
 const recentpost = ref([
