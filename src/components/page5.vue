@@ -4,6 +4,7 @@
       <div v-if="product.id === 5" class="card" style="width: 25rem;">
         <img :src="product.img" class="card-img-top" alt="Product Image">
         <div class="card-body">
+<<<<<<< HEAD
           <h3 class="card-title">{{ product.name }}</h3>
           <p class="card-text">ราคาห้อง: {{ product.price }}</p>
           <p class="card-text">เวลา 1 ชั่วโมง</p>
@@ -11,6 +12,12 @@
           <button @click="data.addToCart(product)" class="btn btn-primary">
             <i class="bi bi-cart-check"></i> จองแมว
           </button>
+=======
+          <h3 class="card-title">{{ n.name }}</h3>
+          <p>ราคาห้อง : {{ n.price }}</p>
+          <h6>จำกัด 3 คนต่อแมว 10 ตัว !!</h6>
+          <a class="btn btn-primary"> จองแมว </a>
+>>>>>>> parent of 1aa4ef1 (ver_2)
         </div>
       </div>
     </div>
