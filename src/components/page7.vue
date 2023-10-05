@@ -1,7 +1,7 @@
 <template>
   <div class="box_all" id="font-family">
     <div class="col-md-6" v-for="product in data.products" :key="product.id" >
-      <div v-if="product.id === 6" class="card" style="width: 25rem;">
+      <div v-if="product.id === 7" class="card" style="width: 25rem;">
         <img :src="product.img" class="card-img-top" alt="Product Image">
         <div class="card-body">
           <h3 class="card-title">{{ product.name }}</h3>

@@ -1,17 +1,3 @@
-<script setup>
-import { ref } from 'vue';
-import newcard from '../pages/newcard.vue'
-import jumbo from './jumbo.vue';
-
-const recentpost = ref([
-  {
-    name: 'แก๊งเหมียว ๆ ยกพวกตีนุด',
-    img: "https://media.timeout.com/images/105871324/image.jpg",
-    data_time: '31 January 2035'
-  }
-])
-</script>
-
 <template>
   <jumbo></jumbo>
   <newcard></newcard>
@@ -75,6 +61,20 @@ const recentpost = ref([
 
   </div>
 </template>
+
+<script setup>
+import { ref } from 'vue';
+import newcard from '../pages/newcard.vue'
+import jumbo from './jumbo.vue';
+
+const recentpost = ref([
+  {
+    name: 'แก๊งเหมียว ๆ ยกพวกตีนุด',
+    img: "https://media.timeout.com/images/105871324/image.jpg",
+    data_time: '31 January 2035'
+  }
+])
+</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap');
